@@ -1,0 +1,14 @@
+.icon{
+  width: 10px;
+}
+.icon fas-red{
+  color: red;
+  background-color: red;
+}
+
+button{
+  color: blue;
+  background-color: aliceblue;
+  width: 20px;
+}
+

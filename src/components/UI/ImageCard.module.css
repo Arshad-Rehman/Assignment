@@ -1,0 +1,39 @@
+
+
+    .horizontal{
+        display: block;
+        width: 100%;
+        overflow-x: scroll;
+     
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .horizontal::-webkit-scrollbar{
+       display: none;
+      }
+      .horizontal{
+          -ms-overflow-style: none;
+      }
+  
+      .slider{
+        display: block;
+        white-space: nowrap;
+    
+      }
+      .item{
+        display: flex;
+        margin-right: 10px;
+        border-radius: 20px;
+    transition: 1s;
+    box-shadow: gray;
+      }
+      .item img:hover{
+        transform: scale(1.1); 
+      }
+      .item img{
+        width: 225px;
+        border-radius: 40px;
+    object-fit: cover;
+    
+    padding: 25px;
+      }
